@@ -2,6 +2,17 @@
 
 This repository contains the backend for the SlidelyAI Form App. The backend is responsible for managing submissions and providing API endpoints for the frontend application.
 
+## Screenshots
+### Home Screen
+![Create Submission Form](screenshots/home_screen.png)
+
+### Create Submission Form
+![Create Submission Form](screenshots/create_submission_form.png)
+
+### View Submissions Form
+![View Submissions Form](screenshots/view_submissions_form.png)
+
+
 ## Frontend Link: [SlidelyAI Frontend Github]( https://github.com/GarvonGit/-Garv-Chouhan-SlidelyAI-DesktopApp.git).
 
 ## Features
