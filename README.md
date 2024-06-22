@@ -1,13 +1,14 @@
 # SlidelyAI Backend
 
-This repository contains the backend for the SlidelyAI project. The backend is responsible for managing submissions and providing API endpoints for the frontend application.
+This repository contains the backend for the SlidelyAI Form App. The backend is responsible for managing submissions and providing API endpoints for the frontend application.
+
+## Frontend Link: [SlidelyAI Frontend Github]( https://github.com/GarvonGit/-Garv-Chouhan-SlidelyAI-DesktopApp.git).
 
 ## Features
 
-- API to handle submission creation
-- API to retrieve submissions
-- API to delete submissions
-- API to update submissions
+- Handle form submission 
+- Retrieve submissions
+- Delete submissions
 
 ## Prerequisites
 
@@ -18,14 +19,14 @@ This repository contains the backend for the SlidelyAI project. The backend is r
 
 ### Step 1: Clone the Repository
 
-git clone https://github.com/GarvonGit/-Garv-Chouhan-SlidelyAI-Backend.git
-cd -Garv-Chouhan-SlidelyAI-Backend
+- git clone https://github.com/GarvonGit/-Garv-Chouhan-SlidelyAI-Backend.git
+- cd -Garv-Chouhan-SlidelyAI-Backend
 
 ### Step 2: Open the Project
 Open the project in Visual Studio.
 
-### Step 3: Restore NuGet Packages
-Restore the NuGet packages required for the project. You can do this by right-clicking on the solution in Solution Explorer and selecting "Restore NuGet Packages."
+### Step 3: Install NuGet Packages
+- Install-Package Newtonsoft.Json
 
 ### Step 4: Run the Project
 Build and run the project in Visual Studio. The backend should start and be ready to accept requests.
@@ -40,11 +41,6 @@ Build and run the project in Visual Studio. The backend should start and be read
 ### Retrieve Submissions
 1. URL: /api/submissions
 2. Method: GET
-
-### Update Submission
-1. URL: /api/submissions/{id}
-2. Method: PUT
-3. Body: JSON object containing updated submission details
 
 ### Delete Submission
 1. URL: /api/submissions/{id}
